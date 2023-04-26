@@ -51,7 +51,7 @@ class _MyAppState extends State<MyApp> {
     //상태를 false로 변경
     setState(() {
       timeStop();
-      times = 0;
+      times = 60;
       isRunning = false;
       timeview = Duration(seconds: times).toString().split('.').first;
     });
